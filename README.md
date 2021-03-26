@@ -18,4 +18,4 @@ Given transaction event observations of 4 blocks (transactions entering the Memp
 
 
  
-Both graphs show the prior and posterior(s). The first graph shows the prior gas price distribution, at which's mean (the API provider guessed) ~70% of transactions should be accepted and our posterior gas price distribution, at which's mean 50% should be accepted. The second graph visualizes how the posterior evolves through seeing more data. Blue is less data and green is more data.
+Both graphs show the prior and posterior(s). The first graph shows the prior gas price distribution, at which's mean (the API provider guessed) ~70% of transactions should be accepted and our posterior gas price distribution, at which's mean (we inferred) 50% should be accepted. The second graph visualizes how the posterior evolves through seeing more data. Blue is less data and green is more data.
