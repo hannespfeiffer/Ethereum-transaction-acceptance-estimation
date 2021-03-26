@@ -12,7 +12,7 @@ Disclaimer: This repo should not be seen as rigorous, production ready code; mor
 
 Given transaction event observations of 4 blocks (transactions entering the Mempool and transactions getting confirmed/stuck), we try to infer, how high the gas price would need to be, in order for a transaction to be accepted with 50% probability. The probability of getting accepted is modeled via a sigmoid function (logistic regression). This probability is used to sample from a Bernoulli distribution. As starting points for the priors, several parameter settings were explored, mainly using the (proprietarily computed by API provider) confidence levels of the same API, which start at 70% and go up to 99%. 
 
-**Results:**
+**Results for block 12108388:**
 
 ![image](https://user-images.githubusercontent.com/20343898/112632044-e9b17a00-8e37-11eb-9d9b-c9c58123fd96.png)
 
