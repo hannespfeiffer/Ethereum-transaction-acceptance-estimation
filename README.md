@@ -2,7 +2,7 @@
 
 An attempt to use probabilistic programming (Pyro) to infer how much one needs to pay for gas, to get one's transaction of at least $2000 of a stable coin  (USDT, USDC, DAI) accepted in the next block with 50% certainty. **Note:** code was written pre-EIP1559
 
-Disclaimer: This repo should not be seen as rigorous, production ready code; moreso a simple study of probabilistic programming. The code was mostly adapted from one of the Pyro examples (link in notebook).
+Disclaimer: This repo should not be seen as rigorous, production-ready code; moreso a simple study of probabilistic programming. The code was mostly adapted from one of the Pyro examples (link in notebook).
 
 **Ethereum transactions and the Mempool**
 
